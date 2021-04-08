@@ -1,7 +1,15 @@
 export default class Node {
-    private value: any;
+    private _value: any;
 
     constructor(value: any = null) {
-        this.value = value;
+        this._value = value;
+    }
+
+    public get value() {
+        return this._value;
+    }
+
+    public set value(val) {
+        this._value = val;
     }
 }

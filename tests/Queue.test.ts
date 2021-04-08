@@ -34,7 +34,7 @@ describe("Queue", () => {
     //     queue.enqueue(new Node());
     //     queue.enqueue(new Node("End"));
     //     expect(firstNode).toEqual(queue.front());
-    //     expect("End").toEqual(queue.rear().value());
+    //     expect("End").toEqual(queue.rear().value);
     // });
 
     // test("dequeue() should remove a node FIFO", () => {
