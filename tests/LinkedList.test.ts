@@ -35,11 +35,11 @@ describe("LinkedList", () => {
     // });
 
     // test("should find a node and return it", () => {
-    //     let node = new Node();
-    //     let node2 = new Node();
+    //     let node = new Node("Shoe");
+    //     let node2 = new Node("Pencil");
     //     linkedList.add(node)
     //     linkedList.add(node2)
-    //     let result = linkedList.find(node);
+    //     let result = linkedList.find("Shoe");
     //     expect(result).toEqual(node);
     // });
 
