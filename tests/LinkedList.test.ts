@@ -20,7 +20,7 @@ describe("LinkedList", () => {
     // test("should return head node", () => {
     //     let node = new Node();
     //     linkedList.add(node)
-    //     expect(linkedList.head()).toBeTruthy()
+    //     expect(linkedList.head).toBeTruthy()
     // });
 
     // test("should return total count of nodes", () => {
@@ -49,6 +49,6 @@ describe("LinkedList", () => {
     //     linkedList.add(dNode)
     //     linkedList.remove(cNode);
     //     expect(linkedList.count()).toEqual(3);
-    //     expect(linkedList.bNode.next()).toEqual(dNode);
+    //     expect(linkedList.bNode.next).toEqual(dNode);
     // });
 })
