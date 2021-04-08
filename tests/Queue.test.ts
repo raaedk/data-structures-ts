@@ -28,7 +28,7 @@ describe("Queue", () => {
     //     expect(queue.length()).toEqual(1);
     // });
 
-    // test("should add many nodes FIFO", () => {
+    // test("should return front and rear node", () => {
     //     let firstNode = new Node();
     //     queue.enqueue(firstNode);
     //     queue.enqueue(new Node());
