@@ -13,10 +13,6 @@ describe("LinkedList", () => {
         linkedList = new LinkedList();
     })
 
-    test("should be empty on instantiation", () => {
-        expect(linkedList.length()).toEqual(0);
-    });
-
     // test("should return head node", () => {
     //     let node = new Node();
     //     linkedList.add(node)
