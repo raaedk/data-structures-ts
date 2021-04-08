@@ -19,6 +19,15 @@ describe("LinkedList", () => {
     //     expect(linkedList.head).toBeTruthy()
     // });
 
+    test("should add new node to end of the list", () => {
+        let aNode = new Node();
+        let bNode = new Node();
+        linkedList.add(aNode);
+        linkedList.add(bNode);
+        expect(linkedList.head).toEqual(aNode);
+        expect(aNode.next).toEqual(bNode);
+    })
+
     // test("should return total count of nodes", () => {
     //     let node = new Node();
     //     linkedList.add(node)
