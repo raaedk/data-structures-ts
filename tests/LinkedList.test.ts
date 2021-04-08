@@ -54,6 +54,6 @@ describe("LinkedList", () => {
     //     linkedList.add(dNode)
     //     linkedList.remove(cNode);
     //     expect(linkedList.count()).toEqual(3);
-    //     expect(linkedList.bNode.next).toEqual(dNode);
+    //     expect(bNode.next).toEqual(dNode);
     // });
 })
