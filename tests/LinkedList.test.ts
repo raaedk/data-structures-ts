@@ -14,7 +14,7 @@ describe("LinkedList", () => {
     })
 
     test("should be empty on instantiation", () => {
-        expect(linkedList.isEmpty()).toBeTruthy()
+        expect(linkedList.length()).toEqual(0);
     });
 
     // test("should return head node", () => {
